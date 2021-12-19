@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "my-test-queue";
+    public static final String MY_SEND_RCV_QUEUE = "replybackqueue";
 
     @Bean // Not spring can read JMS message and convert it to JSON and vice versa.
     public MessageConverter messageConverter() {

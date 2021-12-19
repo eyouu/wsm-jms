@@ -1,4 +1,4 @@
-package com.whosaidmeow.wsmjms.domain;
+package com.whosaidmeow.wsmjms.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
